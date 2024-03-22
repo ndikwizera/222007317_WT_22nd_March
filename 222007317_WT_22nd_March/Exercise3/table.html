@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Page</title>
+    <style>
+        /* CSS for Navigation Bar */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color:  #6685d3; /* Background color of the navigation bar */
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 17px 20px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #ddd; /* Background color on hover */
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="list.html">List</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="radio_button.html">Radio Button</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Table Page -->
+<section id="table">
+    <center>
+    <h2>Student Object Table</h2>
+    <table>
+        <thead style="background-color:  #5aebb3; color: white;">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Gender</th> <!-- New column -->
+                <th>Email</th> <!-- New column -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Irene</td>
+                <td>19</td>
+                <td>B</td>
+                <td>female</td> <!-- New column -->
+                <td>irene@gmail.com</td> <!-- New column -->
+            </tr>
+            <tr>
+                <td>Kwizera</td>
+                <td>20</td>
+                <td>A</td>
+                <td>male</td> <!-- New column -->
+                <td>kwizera@gmail.com</td> <!-- New column -->
+            </tr>
+            <tr>
+                <td>Jeanne</td>
+                <td>23</td>
+                <td>B</td>
+                <td>female</td> <!-- New column -->
+                <td>jeanne@gmail.com</td> <!-- New column -->
+            </tr>
+            <tr>
+                <td>Manzi</td>
+                <td>25</td>
+                <td>A</td>
+                <td>male</td> <!-- New column -->
+                <td>manzi@gmail.com</td> <!-- New column -->
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table></center>
+</section>
+
+</main>
+
+</body>
+</html>
